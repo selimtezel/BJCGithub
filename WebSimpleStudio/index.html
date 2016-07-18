@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beauty and Joy of Computing</title>
+	<style>
+	#studentDiv{
+		background-color: lightskyblue;
+		border: 2px solid black;
+	  	margin-top: 50px;
+	    margin-bottom: 50px;
+	    margin-right: 100px;
+	    margin-left: 100px;
+		padding-top: 30px;
+	    padding-right: 50px;
+	    padding-bottom: 30px;
+	    padding-left: 50px;
+	    font-size: 20px;
+
+	}
+	#teacherDiv{
+		background-color: lightpink;
+		border: 2px solid black;
+	  	margin-top: 50px;
+	    margin-bottom: 50px;
+	    margin-right: 100px;
+	    margin-left: 100px;
+		padding-top: 30px;
+	    padding-right: 50px;
+	    padding-bottom: 30px;
+	    padding-left: 50px;
+	    font-size: 20px;
+
+	}
+
+	</style>
+</head>
+<body>
+<div id="studentDiv">
+<h2>Beauty and Joy of Computing</h2>
+<div class=imgDiv">
+<img src="img/woof.png" width="200px"> &nbsp &nbsp &nbsp&nbsp<img src="img/UFO.gif" width="225px">&nbsp &nbsp &nbsp&nbsp<img src="img/woof.png" width="200px">
+</div><br><br>
+
+<b>Project:</b> Simple Studio for Character Design & Animation &nbsp &nbsp<a href="pdf/ProjectSimpleStudio.pdf" target="_blank">(pdf version) </a><br>
+<b>Curriculum Topic:</b> Lists and simple list operations<br><br>
+
+<div ><b>Recap:</b> Lists are data structures which are very useful if you have many items in some order that you wish to keep track of.  Lists come in especially handy when you don't know ahead of time how many items you will have to keep track of.</div><br>
+
+<b>Project Summary:</b>  In this project we will create a simple studio  for designing and animating a character.  The user will be able to draw a  character with the mouse.  We will use lists to store the mouse locations visited during the drawing.  Then the character drawn will be given motion using the up/down right/left arrow keys.<br><br>
+
+1. Watch the introduction video.  Discuss with your partner the purpose and details of the project.<br><br>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/vjsU-hGqqpQ" frameborder="0" allowfullscreen></iframe><br><br>
+
+2. Play with the Snap! program linked <a href='http://snap.berkeley.edu/snapsource/snap.html#present:Username=selimtezel&ProjectName=SimpleCharacterAnimation' target='_blank'>here</a> to get a feel how the "Simple Studio" program works and how the character is moved around.  Please do not look at the code.<br><br>
+
+3. Discuss with your partner how would you design such a project.  Be sure to explore what data needs to be tracked and how lists can be employed to keep track of this data.<br><br>
+
+4. If you need hints to get started try to answer the following questions:<br>
+<ul><i>
+<li>What initiates the drawing of the character?</li>
+<li>How can you access the location of the mouse as it is moved around? (Hint: Sensing menu)</li>
+<li>How can you make a drawing based on the mouse positions? (Hint: Pen menu)</li>
+<li>How can you store the x and y positions of the mouse as the drawing is created? </li>
+<li>Do we know ahead of time how many locations the user's mouse will  visit while drawing? </li>
+<li>Why is remembering the order of these locations important?</li>
+<li>What data structure is called for?  How many of these would be handy? Why?</li>
+<li>What ends the drawing phase?</li>
+<li>What should happen when each of the following keys are pressed: up, down, right, left?</li>
+<li>How should the location information stored in the lists be updated to accomplish these movements?</li>
+<li>How should the revised drawings be created based on updated locations?</li>
+</i></ul>
+If you need more hints, here are some code blocks that may be handy:<br><br>
+<img src="img/hintCode.png"><br>
+
+
+5. If you get stuck watch the video  discussing the hints.<br><br>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/yDt1niFSmlE" frameborder="0" allowfullscreen></iframe><br><br>
+
+6. Start coding in Snap!  Many things will clear up when you actually get to work.<br><br>
+
+7. If you get stuck, watch the videos on the drawing phase and the animation phase.<br><br>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/7IJCMSqBTGA" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/vH8uK-kk6nA" frameborder="0" allowfullscreen></iframe><br><br>
+
+8. Submit your project to your teacher by the given deadline.<br><br>
+
+9. Discuss with other groups how they went about the project.<br><br>
+
+10.  Brainstorm with your partner about some possible extensions and bonus explorations of the project.<br><br>
+
+Here are some possible suggested extensions:<br>
+<ul><i>
+<li>Can you revise your code so that a single list (a list of lists) keeps track of the mouse x & y location information?</li>
+
+<li>Can you revise your code so that all the arrow key inputs (up/down/right/left) are processed together in a single procedure?</li>
+
+<li>Can you add background image(s) to your character animation?  Can you add music to your character animation?</li>
+
+<li>Can you give the user options (such as color, pen thickness, etc.) in the drawing phase?</li>
+<li>Can you allow for other types of character animations: rotate, flip, shrink/enlarge?</li>
+
+<li>Research about advanced character design and animation studio software in the market, such as Maya 3D, Unity 3D etc.  </li>
+
+<li>Research about Pixar Animation Studios.  How did they start? How do they work?  Learn about the internship opportunities they offer.</li>
+</i></ul>
+
+</div>
+<div id="teacherDiv">
+<b>Teacher Guide</b> &nbsp &nbsp<a href="pdf/TeacherGuide.pdf" target="_blank">(pdf version) </a><br><br>
+<b>Purpose of Project:</b> <br>
+This project aims to explore concepts related to "Lists" in a hands-on and fun manner.  Most students enjoy drawing and almost all are fascinated by the animated works of studios like Pixar.  This projects hopes to bring home the idea of using lists to store and transform data. It also hopes to be a first stepping stone to more advanced character design and animation techniques students may pursue in the future.<br><br>
+
+<b>Time Commitment:</b><br>
+About 4 days. <br>
+First day: Watching the introduction video, playing with the Snap! program provided and starting the project design in partner groups.  <br>
+Second day: Coding.  Using the hint questions, and Hints video as needed.<br>
+Third day: Finishing the project, exploring some extensions.  If stuck, watching the step-by-step videos of the Drawing and Animation phases.<br>
+Fourth day: Exploring more extensions and bonus opportunities.  Catch up day for those really behind.  Classroom sharing. <br><br> 
+
+<b>Tips:</b><br>
+<ul>
+<li>Be sure to do this lab and some of its extensions on your own prior to introducing it to the students.</li>
+<li>Make sure that, while playing with the Snap! code to understand the project, students are not accessing the code. (Hopefully UC Berkeley folks will soon create such a  capability: to use a program without access to the code.)</li>
+<li>Make sure that, students spend a good amount of time coming up with their own design ideas prior to reading the hints questions and watching the Hints video.</li>
+<li>Make the step-by-step solution videos on the Drawing and Animation phases available only to students who are really stuck.</li>
+<li>Encourage the students who are ahead of schedule to come up with their own extensions prior to reading suggested extensions.</li>
+</ul><br>
+
+<b>Correlation with AP CS Principles Framework:</b><br>
+
+EU 5.1 Programs can be developed for creative expression, to satisfy personal curiosity, to create new knowledge, or to solve problems (to help people, organizations, or society).<br>
+
+LO 1.2.2 Create a computational artifact using computing tools and techniques to solve a problem.<br>
+
+EK 5.1.3B Collaboration facilitates multiple perspectives in developing ideas for solving problems by programming.<br>
+
+EK 5.3.1L Using lists and procedures as abstractions in programming can result in programs that are easier to develop and maintain.<br><br>
+
+
+<b>Possible Code Solutions:</b><br>
+Code for Initialization & Drawing: <br>
+<img src="img/solutions/drawingCodeSolution.png"><br>
+Code for Movement with the up/down right/left arrow keys:<br>
+<img src="img/solutions/upArrowSolution.png"><br>
+<img src="img/solutions/downArrowSolution.png"><br>
+<img src="img/solutions/rightArrowSolution.png"><br>
+<img src="img/solutions/leftArrowSolution.png"><br>
+Possible single block of code to unify  behavior from the up/down right/left keys:<br>
+ <img src="img/solutions/unifiedArrowSolution.png"><br>
+
+Hint for the possible to use a single list of lists to keep track of mouse positions:<br>
+
+ <img src="img/solutions/oneLocListHint.png"><br>
+
+</div>
+</body>
+</html>
